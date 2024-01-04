@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+    font-family: 'Merriweather', serif;
+    background-color: rgb(23, 23, 23);
+}
+.Top{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(img/HD-wallpaper-indian-restaurant-san-francisco-deccan-house-sf-north-indian-food.jpg)
+}
+.Dawat{
+    color: whitesmoke;
+    padding-top: 200px;
+    padding-left:200px;
+    font-size: 100px;
+    font-style: italic;
+}
+#about{
+    padding: 80px;
+    
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 30%;
+}
+
+.about-col-2{
+    padding-top: 50px;
+    flex-basis: 60%;
+}
+.sub-title{
+    font-size: 40px;
+    font-weight: 600;
+    color:wheat;
+    font-style: italic;
+    
+}
+.Hello{
+    margin-top: 25px;
+    font-size: 20px;
+    color:wheat;
+   
+}
+.Hello2{
+    font-style: italic;
+    color:orangered;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#services{
+    padding: 30px,0px;
+    margin-left: 80px;
+}
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-right: 80px;
+}
+.services-list div{
+    background: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-right: 10px;
+    
+}
+.services-list div h2{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: underline;
+    color: wheat;
+}
+.services-list div p{
+    font-size: 15px;
+    text-align: center;
+    color: wheat;
+}
+.photo{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-left: 40px;
+   
+
+}
+.photo-1{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-left: 40px;
+    
+}
+.photo-2{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-left: 40px;  
+}
+.services-list div b{
+    color: orangered;
+    font-size: 15px;
+}
+.btn {
+    background-color:wheat;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+}
+.btn:hover {
+    background:rgb(223, 186, 117);
+    text-decoration: none;
+}
+.bottom{
+    margin-top: 30px;
+    padding: 50px 0 20px;
+    text-align: center;
+    background-color:wheat;
+    font-size: 20px;
+    color: #262626;
+}
